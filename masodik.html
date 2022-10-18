@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>A második oldalam</title>
+	<link rel="icon" type="image/x-con" href="AP791920-10.square.jpg">
+	<style>
+	body {
+		background-image: url('1660311.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	img {width: 300px; height: 300px;}
+
+	#firstheader {
+		color:white;
+		background-color: #DC143C;
+		padding: 20px;
+		margin: 20px;
+		text-align: center;
+	}
+
+	.main {
+		color:white;
+		background-color: #DC143C;
+		padding: 20px;
+		margin: 20px;
+	}
+	* {
+	  box-sizing: border-box;
+	}
+
+	.left {
+	  background-color: #FF0000;
+	  padding: 20px;
+	  float: left;
+	  width: 20%; /* The width is 20%, by default */
+	  text-align: center;
+	}
+
+	.middle {
+	  background-color: #FFFFFF;
+	  padding: 20px;
+	  float: left;
+	  width: 60%; /* The width is 60%, by default */
+	  text-align: center;
+	}
+
+	.right {
+	  background-color: #04AA6D;
+	  padding: 20px;
+	  float: left;
+	  width: 20%; /* The width is 20%, by default */
+	  text-align: center;
+	}
+
+	/* Use a media query to add a break point at 800px: */
+	@media screen and (max-width: 1150px) {
+	  .left, .middle, .right {
+		width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+	  }
+	}
+	</style>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+</head>
+
+<body>
+<h1 id="firstheader">Ez itt a második oldal.</h1>
+<br>
+<img src="AP791920-10.square.jpg" alt="Labda háttéren" usemap="#workmap">
+
+<map name="workmap">
+	<area shape="circle" coords="150,150,130" alt="labda" href="https://en.wikipedia.org/wiki/Football" target="_blank" title="Football">
+</map>
+<br>
+<button onclick="document.location='elso.html'">Vissza a főoldalra</button>
+<br>
+
+<p class="main"> labdarúgás (angol eredetű szóval football, magyaros átírásban futball, a köznyelvben gyakran foci) labdajáték, amelyet a pályán két,
+ egyenként 11 labdarúgóból álló csapat játszik egymás ellen. A játék célja, hogy a rendelkezésre álló idő alatt a labdát az ellenfél kapujába juttassák,
+ lehetőleg minél többször, és így minél több gólt szerezzenek. A Nemzetközi Futballszövetségi Testület (International Football Association Board IFAB),
+ a játék szabályalkotó szervezete. 1886-ban ez a szervezet fektette le a futball szabályait.</p>
+<br>
+
+<div class="left">
+  <p>Lorem ipsum dolor sit amet</p>
+</div>
+
+<div class="middle">
+  <p>Lorem ipsum dolor sit amet</p>
+</div>
+
+<div class="right">
+  <p>Lorem ipsum dolor sit amet</p>
+</div>
+ 
+ 
+
+</body>
+</html>

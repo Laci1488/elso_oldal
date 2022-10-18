@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Gyakorlás</h2>
+
+<p id="demo"></p>
+<p id="demo2"></p><br>
+<button onclick="window.print()">Nyomtatás</button>
+
+<script>
+  var szam1 = 2, szam2 = 3;
+  var osszeg = szam1 + szam2;
+  const nevek = ["Jani", "Pista", "Béla"]
+  const adatok = {nev:"Lajos", kor: "54"};
+  document.getElementById("demo").innerHTML = osszeg;
+  document.getElementById("demo2").innerHTML = nevek + ". " + adatok.nev + ": " + adatok.kor;
+  //alert("Igen")
+</script>
+
+</body>
+</html>

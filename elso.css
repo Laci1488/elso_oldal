@@ -1,0 +1,23 @@
+body {
+	background-color: FloralWhite;
+}
+h1 {
+	font-size:50px; font-family:courier; text-align: center;
+}
+p{
+	font-family: verdana;
+}
+a:hover {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+}
+/* a:active { */
+	/* background-color: #FF4500; */
+	/* color: white; */
+	/* padding: 15px 20px; */
+	/* text-align: center; */
+	/* text-decoration: none; */
+	/* display: inline-block; */
+}
+
